@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : ejercicioEnClase.c
+ Name        : Davalos Insaurralde Adriana Maria
  Author      : 
  Version     :
  Copyright   : Your copyright notice
@@ -34,13 +34,16 @@ int main(void) {
 		switch (opcionElegida) {
 		    case 'a':
 		    	flagUno=1;
+		    	prinf("Iniciado");
 		        break;
 		    case 'b':
 		    	if(flagUno == 0)
 		    	{
 		    		printf("\nDebe Iniciar antes de Procesar\n");
+		    	}else{
+		    		printf("Procesado");
+		    		flagDos =1;
 		    	}
-		    	flagDos =1;
 		        break;
 		    case 'c':
 		    	if(flagUno == 0)
